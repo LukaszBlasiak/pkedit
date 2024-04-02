@@ -2,7 +2,9 @@
 Do you like creating mods for good old games? Me too! One of my favorites is Painkiller Black Edition. Unfortunately, due to a bug, despite having an **original** Steam copy of the game, the map editor won't start up. Don't worry, in this repository you will find a bug fix that will allow you to create your own modifications!
 
 ## Ready to use executable
-Just download the executable from this repo to: `path/to/steam/steamapps/common/Painkiller Black Edition/Bin/Editor`
+Just download the executable from this repo to: 
+
+```path/to/steam/steamapps/common/Painkiller Black Edition/Bin/Editor```
 
 ## ModDB
 The executable is also available on ModDB: [link](google.com)
@@ -10,7 +12,7 @@ The executable is also available on ModDB: [link](google.com)
 ## DIY
 Don't trust untrusted executables? Very good! Below is a step-by-step guide on how to fix the bug yourself.
 1. Download the latest release of [Ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
-2. Create a new project and import the `pkedit.exe` from `path/to/steam/steamapps/common/Painkiller Black Edition/Bin/Editor`
+2. Create a new project and import `pkedit.exe` from `path/to/steam/steamapps/common/Painkiller Black Edition/Bin/Editor`
 3. Navigate to `004306c1`
 4. Right click on the `JNZ` instruction -> Patch Instruction
 5. Replace the `JNZ` instruction with `JN`
