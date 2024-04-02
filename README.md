@@ -1,4 +1,4 @@
-# Unlocked map editor for the good old game Painkiller Black Edition v1.68
+# Unlocked map editor for the good old game Painkiller Black Edition v1.64
 Do you like creating mods for good old games? Me too! One of my favorites is Painkiller Black Edition. Unfortunately, due to a bug, despite having an **original** Steam copy of the game, the map editor won't start up. Don't worry, in this repository you will find a bug fix that will allow you to create your own modifications!
 
 ## Ready to use executable
@@ -7,7 +7,7 @@ Just download the executable from this repo to:
 ```path/to/steam/steamapps/common/Painkiller Black Edition/Bin/Editor```
 
 ## ModDB
-The executable is also available on ModDB: [link](google.com)
+The executable is also available on ModDB: [link](https://www.moddb.com/games/painkiller/downloads/paineditor-for-painkiller-black-edition-v164)
 
 ## DIY
 Don't trust untrusted executables? Very good! Below is a step-by-step guide on how to fix the bug yourself.
